@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/fotinha"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/placeholder"
+            />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textinpcomentario"
+         >
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:id="@+id/comment"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:hint="Legenda" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Postar"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
